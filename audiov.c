@@ -50,9 +50,9 @@
 #define CFG_MARGIN_X      0      /* left/right screen margin (0=edge)     */
 #define CFG_MARGIN_Y      0      /* gap from bottom of screen (0=flush)   */
 #define CFG_BAR_GAP       1      /* pixel gap between bars                */
-#define CFG_GRAVITY       0.0018f /* fall acceleration per frame          */
-#define CFG_RISE_SPEED    0.85f  /* rise smoothing (higher = snappier)   */
-#define CFG_SCALE         220.0f /* amplitude scale (raise if too quiet)  */
+#define CFG_GRAVITY       0.0015f /* fall acceleration per frame          */
+#define CFG_RISE_SPEED    0.55f  /* rise smoothing (higher = snappier)   */
+#define CFG_SCALE         12.0f /* amplitude scale (raise if too quiet)  */
 #define CFG_SAMPLE_RATE   44100  /* audio sample rate                     */
 #define CFG_FPS           60     /* render framerate                      */
 #define CFG_GAMEMODE_CHECK_SECS 2 /* how often to poll gamemode status    */
